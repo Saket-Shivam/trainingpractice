@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #students{
+            font-family:'Times New Roman','Times New Roman', Times, serif;
+            font-style: italic;
+            border-collapse: collapse;
+            width: fit-content;
+        }
+        #students td, #students th{
+            border:1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        #students th{
+            background-color: crimson;
+            color: aliceblue;
+        }
+        tr:hover{background-color: darkred;}
+        input[type=text]{
+            border-style: double;
+            color: black;
+            background-color: cyan;
+            width: 130px;
+            border: 2px solid;
+            background-image: "search.webp ";
+        }
+        #header{
+            background-color: darkgoldenrod;
+            color: white;
+            text-align: center;
+
+        }
+        #navigationbar{
+            background-color: cadetblue;
+            color: white;
+            float: left;
+            text-align: center;
+        }
+        .column{
+            float: left;
+            width: 20%;
+            padding: 40px;
+           
+        }
+        .row{
+            display:table;
+        }
+        .footer{
+            background-color: aqua;
+            text-align: center;
+            padding: 15px;
+            margin-top: 1000px;
+        }
+    </style>
+  
+    
+
+
+
+
+
+
+
+</head>
+<body>
+    <table id="students">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>Saket</td>
+            <td>CSE</td>
+            <td>Brillio</td>
+        </tr>
+    </table>
+
+    <h1> Responsive table</h1>
+    <div style="overflow-x: auto;"
+        <table>
+
+    </table>
+
+    <div>
+        <form>
+            <label for="name">First name</label>
+            <input type="text" id="name" name="fname" placeholder="your name.."><br><br>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="your name.."><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
+            
+        </form>
+    </div>
+
+
+
+    <div>
+        <h1 id="header">Welcome to orkut</h1>
+        
+    </div>
+    <div id="navigationbar">
+        <a href="?">home     ||</a>
+        <a href="?">Friends</a><br>
+    </div>
+<br>
+    <div class="row">
+        <div class="column">
+            <h1>My info</h1>
+            <p>
+                I'm just a machine.
+            </p>
+
+        </div>
+        <div class="column">
+            <h1>Likes/dislike</h1>
+            <p>
+                i dislike everything lol
+            </p>
+        </div>
+        <div class="column">
+            <h1>Qualification</h1>
+            <p>
+                Ph.d in everything
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>This is a footer.</p>
+    </div>
+</body>
+</html>
