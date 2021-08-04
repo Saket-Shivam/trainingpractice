@@ -130,7 +130,7 @@ for(var i=1;i<=a;i++){
         console.log("")
     }
 }*/
-var a=null??'bye';
+/*var a=null??'bye';
 console.log(a)
 
 
@@ -141,7 +141,10 @@ function myAddition(a,b){
 }
 c=myAddition(1,2)
 console.log(c)
-function percentage()
+function percentage()*/
+
+
+
 
 
 
